@@ -1,12 +1,21 @@
 body {
     color: black;
     font-family: Inconsolata;
+    text-transform: lowercase;
+}
+
+p {
+    display: block;
 }
 
 h1 {
     color: #EEEEEE;
 }
 
+
+a:hover {
+    text-transform: uppercase;
+}
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -22,11 +31,11 @@ h1 {
     text-transform: lowercase;
 }
 
-.nav, a {
+.nav a {
     color: black;
 }
 
-.nav, a:hover {
+.nav a:hover {
     color: black;
 }
 
@@ -35,11 +44,32 @@ h1 {
     margin: 0px;
 }
 
+.h3blog {
+    font-weight:bold;
+    font-family: "Arial Black";
+    font-size: large;
+    display:block;
+    margin-bottom: fill;
+}
+
+.sub {
+    display: block;
+    font-size: small;
+    margin: 0px 20px;
+}
+
+.subtext {
+    margin: 20px 5px 5px 5px;
+}
+
 #head {
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#head a {
+    color: white;
+}
 h1, #title {
     font-family: "Arial Black";
     font-weight: bold;
@@ -55,9 +85,29 @@ h1, #title {
     float: left;
     background-color: black;
     color: white;
-    display: inline-block;
+    display: block;
     font-size: small;
 }
 
 
+.btn {
+    display: block;
+    margin: 0px;
+    align-content: start;
+}
 
+.row {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.row * {
+    display: block;
+}
+
+
+.card-deck {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}

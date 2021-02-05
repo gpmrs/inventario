@@ -1,0 +1,23 @@
+<div class="home">
+    <article>
+        <section class="my-md-4">
+            <p class="text-center w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.</p>
+            <div class="container fluid">
+            <div class="row" ng-repeat="article in articles">
+                    <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                    <h3 class="h3blog">{{ article.title }}</h3>
+                    <p class="sub">by {{ article.author }}</p>
+                    <p class="subtext">{{ article.text}}</p>
+                <div>
+                    <a class="btn btn-md" href="#!">read more</a>
+                </div>
+            </div>
+        </section>
+    </article>
+</div>
