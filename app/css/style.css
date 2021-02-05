@@ -1,0 +1,63 @@
+body {
+    color: black;
+    font-family: Inconsolata;
+}
+
+h1 {
+    color: #EEEEEE;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.nav {
+    font-family: Inconsolata;
+    text-transform: lowercase;
+}
+
+.nav, a {
+    color: black;
+}
+
+.nav, a:hover {
+    color: black;
+}
+
+
+.jumbotron {
+    margin: 0px;
+}
+
+#head {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, #title {
+    font-family: "Arial Black";
+    font-weight: bold;
+    background-color: black;
+    display: inline-block;
+    padding:  0px 5px;
+
+}
+
+#subhead {
+    padding: 0px 5px;
+    vertical-align: bottom;
+    float: left;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: small;
+}
+
+
+
